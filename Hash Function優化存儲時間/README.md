@@ -1,8 +1,6 @@
-功能： 
-    1.用trackbar控制整張圖片的逆時針旋轉角度（0度至359度）。
-    2.用trackbar控制圖片中心內切圓區域的旋轉角度（0度至359度）。
-開發環境：
-•	Windows 10
-•	Visual Studio 2022
-•	C++
-•	Open CV 4.7.0
+hash function (int, string) 的設計  
+int 的 hash function 的 key 為此 int %總 int 數量    
+string 的 hash function 的 key 為此 string 第一個字的 ASCII CODE%總 string 數量  
+  
+容器有總 int/string 數量個入口，每個入口第一個 data 皆為 linked list 的 first，  
+key 一樣的 insert 各自的 linked list  
